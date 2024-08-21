@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP HTML - Echegaray Pablo</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Encabezado principal</h1>
+            <ul>
+                <li><a href="#estructura">Estructura</a></li>
+                <li><a href="#multimedia">Multimedia</a></li>
+                <li><a href="#formulario">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- 4.1 Estructura Básica del Documento HTML -->
+    <main>
+        <h2 id="estructura">1. Estructura Básica del Documento HTML</h2>
+        <p>Este documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos
+            y
+            un título.</p>
+
+        <!-- 4.2 Encabezados y Propiedades del Texto -->
+
+        <h2>2. Encabezados y Propiedades del Texto</h2>
+        <h3><b>Este es un texto en negrita</b></h3>
+        <h4><i>Este es un texto en cursiva</i></h4>
+        <h5><u>Este es un texto subrayado</u></h5>
+        <h6>Este es un h6</h6>
+
+        <!-- 4.3 Divisiones y Agrupación de Contenido -->
+
+        <h2>Divisiones y Agrupación de Contenido</h2>
+        <div>
+            <h3>Sección 1</h3>
+            <p>Contenido de la primera sección agrupada en un div.</p>
+        </div>
+
+        <div>
+            <h3>Sección 2</h3>
+            <p>Contenido de la segunda sección agrupada en un div.</p>
+        </div>
+
+        <!-- 4.4 Enlaces y Listas -->
+    </main>
+
+    <section>
+        <h2>Enlaces y Listas</h2>
+        <p>Visita nuestro <a href="#">sitio web</a> para más información</p>
+        <div>
+            <h3>Enlaces internos</h3>
+            <ul>
+                <li><a href="#estructura">Ir a Estructura</a></li>
+                <li><a href="#multimedia">Ir a Multimedia</a></li>
+                <li><a href="#formulario">Ir a Formulario</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Lista desordenada</h3>
+            <ul>
+                <li>Primer ítem de una lista desordenada</li>
+                <li>Segundo ítem de una lista desordenada</li>
+            </ul>
+            <h3>Lista desordenada</h3>
+            <ol>
+                <li>Primer ítem de una lista ordenada</li>
+                <li>Segundo ítem de una lista ordenada</li>
+            </ol>
+        </div>
+
+    </section>
+    <section id="multimedia">
+
+        <!-- 4.5 Elementos Multimedia -->
+        <img src="./src/parkour.png" alt="Michael Scott Parkour Meme">
+        <video width="640" height="360" controls>
+            <source src="./src/videoplayback.mp4" type="video/mp4">
+        </video>
+        <audio controls>
+
+            <source src="./src/parkour2.mp3">
+            </source>
+        </audio>
+    </section>
+    <aside>
+
+        <!-- 4.6 Tablas -->
+        <table border="1">
+            <tr>
+                <th>Columna 1</th>
+                <th>Columna 2</th>
+            </tr>
+            <tr>
+                <td>Dato 1</td>
+                <td>Dato 2</td>
+            </tr>
+            <tr>
+                <td>Dato 3</td>
+                <td>Dato 4</td>
+            </tr>
+
+        </table>
+    </aside>
+
+    <!-- 4.7 Formularios -->
+    <div>
+        <form action="" id="formulario">
+            <span>Nombre</span>
+            <input type="text" name="nombre" id="">
+            <span>Email</span>
+            <input type="email" name="email" id="">
+            <span>Mensaje</span>
+            <textarea name="mensaje" id=""></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <footer>
+        <div>
+            <p>Información complementaria</p>
+            <span>2024 Trabajo Práctico de HTML</span>
+        </div>
+    </footer>
+</body>
+
+</html>
